@@ -6,9 +6,9 @@ To compile all java files enter this command in the same directory as the files:
 ```ps
 javac *.java
 ```
-Then to run a brainfuck file, use this command replacing "example.bf" with the file of your choice
+Then to run a brainfuck file, use this command replacing "cat.bf" with the file of your choice. You may add another argument to fulfil the stdin stream, though not required by brainfuck files that don't use the "," instruction.
 ```ps
-java FileReaderForJBF example.bf "If your .bf file doesn't have the ',' instruction this argument's not needed"
+java FileReaderForJBF cat.bf "Hello, World!"
 ```
 # Features
 - Conditional Loops
